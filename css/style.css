@@ -162,15 +162,26 @@
     bottom: 570px;
     box-shadow: 0px 0px 10px 0px black;
     color: rgb(59, 59, 59);
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
     padding-bottom: 18px;
+    overflow: auto;
+}
+
+.tusconex h3{
+    display: flex;
+    justify-content: center;
+}
+
+.perfil2{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    margin: 0px 0px 0px 10px;
 }
 
 .perfil2 img{
-    width: 40px;
+    width: 50px;
+    margin-bottom: 10px;
     border: 2px solid rgb(39, 118, 223);
     border-radius: 50%;
 }
